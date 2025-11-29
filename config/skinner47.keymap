@@ -19,8 +19,8 @@
         symbol_layer {
             bindings = <
 &trans  &kp TILDE &kp N7    &kp N8        &kp N9     &kp PRCNT                 &kp MINUS  &kp LBRC  &kp RBRC  &kp PLUS  &kp CARET  &trans
-&trans  &kp GRAVE &kp N4    &kp N5        &kp N6     &kp N0                    &kp UNDER  &kb LPAR  &kb RPAR  &kp EQUAL &kp HASH   &kp AT
-&trans  &kp DLLR  &kp N1    &kp N2        &kp N3     &kp QMARK                 &kp EXCL   &kb LBKT  &kb RBKT  &kp AMPS  &kp STAR  &trans
+&trans  &kp GRAVE &kp N4    &kp N5        &kp N6     &kp N0                    &kp UNDER  &kp LPAR  &kp RPAR  &kp EQUAL &kp HASH   &kp AT
+&trans  &kp DLLR  &kp N1    &kp N2        &kp N3     &kp QMARK                 &kp EXCL   &kp LBKT  &kp RBKT  &kp AMPS  &kp STAR  &trans
 &trans  &trans    &trans    &trans        &trans     &kp LT   &kp GT   &trans  &trans                                   &trans    &trans
             >;
         };
