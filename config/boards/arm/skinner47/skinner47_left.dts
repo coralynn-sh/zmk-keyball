@@ -75,7 +75,7 @@ nice_view_spi: &spi2 {
 
 	scroller {
 		layers = <3>;
-		input-processors = <&zip_scroll_transform 2>
+		input-processors = <&zip_scroll_transform 3>
                      , <&zip_xy_scaler 1 16>
                      , <&zip_xy_to_scroll_mapper>;
 	};
