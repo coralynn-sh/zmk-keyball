@@ -36,7 +36,7 @@
 
         control_layer {
             bindings = <
-&trans       &trans       &kp F22      &kp F23      &kp F24       &trans                       &trans &kp LC(LEFT)   &kp UP          &kp LC(RIGHT) &trans        &kp C_SLEEP
+&bt BT_CLR   &trans       &kp F22      &kp F23      &kp F24       &trans                       &trans &kp LC(LEFT)   &kp UP          &kp LC(RIGHT) &trans        &kp C_SLEEP
 &trans       &trans       &kp F19      &kp F20      &kp F21       &trans                       &trans &kp LEFT       &kp DOWN        &kp RIGHT     &trans        &trans
 &trans       &trans       &kp F16      &kp F17      &kp F18       &trans                       &trans &msc SCRL_LEFT &msc SCRL_RIGHT &trans        &trans        &trans
 &bt BT_SEL 3 &bt BT_SEL 2 &bt BT_SEL 1 &bt BT_SEL 0 &trans        &trans       &trans  &trans  &trans                                                      &kp C_BRI_DN  &kp C_BRI_UP
