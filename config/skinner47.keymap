@@ -11,6 +11,11 @@
             key-positions = <27 28>;
             bindings = <&mo 3>;
         };
+        combo_solo {
+            timeout-ms = <50>;
+            key-positions = <1 25>;
+            bindings = <&to 4>;
+        };
     };
 
     keymap {
@@ -48,6 +53,33 @@
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        solo_left_layer {
+            bindings = <
+&kp TAB    &kp Q         &kp W         &kp F              &kp P         &kp G                             &trans  &trans  &trans  &to 0   &trans  &trans
+&kp ESC    &kp A         &kp R         &kp S              &kp T         &kp D                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LMETA  &kp Z         &kp X         &kp C              &kp V         &kp B                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LALT      &kp RSHIFT    &kp BACKSPACE      &mo 6         &lt 5 SPACE   &kp RSHIFT  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        solo_right_layer {
+            bindings = <
+&kp SEMI   &kp SEMI      &kp Y         &kp U       &kp L         &kp J                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp ESC    &kp O         &kp I         &kp E       &kp N         &kp H                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp GRAVE  &kp FSLH      &kp DOT       &kp COMMA   &kp M         &kp K                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LALT      &trans        &trans      &trans        &trans        &kp RSHIFT  &trans  &trans                          &trans  &trans
+            >;
+        };
+
+        solo_other_layer {
+            bindings = <
+&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &kp N1  &kp N2  &kp N3  &kp ENTER               &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
