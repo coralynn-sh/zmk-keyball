@@ -61,8 +61,8 @@
             bindings = <
 &kp TAB    &kp Q         &kp W         &kp F              &kp P         &kp G                             &trans  &trans  &trans  &to 0   &trans  &trans
 &kp ESC    &kp A         &kp R         &kp S              &kp T         &kp D                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp GRAVE  &kp Z         &kp X         &kp C              &kp V         &kp B                             &trans  &trans  &trans  &trans  &trans  &trans
-&kp LCTRL  &kp LALT      &kp LMETA     &kp BACKSPACE      &mo 6         &lt 5 SPACE   &kp RSHIFT  &trans  &trans                          &trans  &trans
+&kp LMETA  &kp Z         &kp X         &kp C              &kp V         &kp B                             &trans  &trans  &trans  &trans  &trans  &trans
+&kp LCTRL  &kp LALT      &kp GRAVE     &kp BACKSPACE      &mo 6         &lt 5 SPACE   &kp RSHIFT  &trans  &trans                          &trans  &trans
             >;
         };
 
