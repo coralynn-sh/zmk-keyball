@@ -6,7 +6,7 @@
 / {
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_left_scroll {
             timeout-ms = <50>;
             key-positions = <27 28>;
             bindings = <&mo 3>;
@@ -15,6 +15,16 @@
             timeout-ms = <50>;
             key-positions = <1 25>;
             bindings = <&to 4>;
+        };
+        combo_right_scroll {
+            timeout-ms = <50>;
+            key-positions = <33 34>;
+            bindings = <&mo 3>;
+        };
+        combo_right_click {
+            timeout-ms = <50>;
+            key-positions = <32 33>;
+            bindings = <&mkp LCLK>;
         };
     };
 
