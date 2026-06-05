@@ -26,6 +26,11 @@
             key-positions = <32 33>;
             bindings = <&mkp LCLK>;
         };
+        combo_swap {
+            timeout-ms = <50>;
+            key-positions = <7 19>;
+            bindings = <&mo 1 &kp LALT>;
+        };
     };
 
     keymap {
@@ -51,7 +56,7 @@
 
         control_layer {
             bindings = <
-&trans        &kp F3        &kp F22       &kp F23       &kp F24        &trans                       &trans &kp LC(LEFT)   &kp UP          &kp LC(RIGHT) &trans        &bt BT_CLR
+&trans        &trans        &kp F22       &kp F23       &kp F24        &trans                       &trans &kp LC(LEFT)   &kp UP          &kp LC(RIGHT) &trans        &bt BT_CLR
 &bt BT_SEL 4  &bt BT_SEL 3  &bt BT_SEL 2  &bt BT_SEL 1  &bt BT_SEL 0   &trans                       &trans &kp LEFT       &kp DOWN        &kp RIGHT     &trans        &trans
 &bt BT_DISC 4 &bt BT_DISC 3 &bt BT_DISC 2 &bt BT_DISC 1 &bt BT_DISC 0  &trans                       &trans &msc SCRL_LEFT &msc SCRL_RIGHT &trans        &trans        &trans
 &trans        &trans        &trans        &trans        &trans         &trans  &trans      &kp DEL  &trans                                              &kp C_BRI_DN  &kp C_BRI_UP
