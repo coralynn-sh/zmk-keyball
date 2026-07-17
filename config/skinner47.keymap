@@ -4,7 +4,8 @@
 #include <dt-bindings/zmk/pointing.h>
 
 &mt {
-  require-prior-idle-ms = <500>;
+  require-prior-idle-ms = <250>;
+  flavor = "balanced";
 };
 
 / {
