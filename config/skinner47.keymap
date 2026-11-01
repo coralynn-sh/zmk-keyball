@@ -71,8 +71,8 @@
         scroll_layer {
             bindings = <
 &trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &msc SCRL_UP            &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &msc SCRL_DOWN          &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
@@ -97,10 +97,10 @@
 
         solo_other_layer {
             bindings = <
-&trans  &trans  &kp N7  &kp N8  &kp N9  &trans                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N4  &kp N5  &kp N6  &kp N0                  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &kp N1  &kp N2  &kp N3  &kp ENTER               &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
+&trans  &msc SCRL_DOWN &kp N7  &kp N8  &kp N9  &msc SCRL_UP            &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp N4  &kp N5  &kp N6  &kp N0                  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &kp N1  &kp N2  &kp N3  &kp ENTER               &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans         &trans  &trans  &trans  &trans  &trans  &trans  &trans                          &trans  &trans
             >;
         };
 
